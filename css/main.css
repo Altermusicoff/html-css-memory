@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
+}
+
+h1{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #afacac,
+    1px -1px 0 #545454,
+   -1px 1px 0 #696868,
+    1px 1px 0 #423f3f;
+    padding-bottom: 15px;
+}
+
+main{
+  background-color: lightblue;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.row{
+  padding-bottom: 20px
+}
+
+.covercard, .covercard:hover{
+  border: solid 0.1px lightgrey;
+  border-radius: 10px;
+  background-image: url(../img/pattern.png);
+  background-size: 130px;
+  height: 150px;
+  width: 135px;
+  display: inline-block;
+}
+
+.covercard:hover{
+  background-color: white;
+}
+
+.bicycle:hover{
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  background-repeat: no-repeat;
+}
+
+.ship:hover{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+  background-repeat: no-repeat;
+}
+
+.submarine:hover{
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-repeat: no-repeat;
+}
+
+.tractor:hover{
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-repeat: no-repeat;
+}
+
+.tram:hover{
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-repeat: no-repeat;
+}
+
+.airbaloon:hover{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-repeat: no-repeat;
+}
