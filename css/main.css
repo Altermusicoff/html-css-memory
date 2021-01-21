@@ -7,6 +7,7 @@
 
 h1{
   padding-top: 10px;
+  font-size: 60px;
   text-align: center;
   color: white;
   background-color: lightblue;
@@ -26,26 +27,63 @@ main{
 }
 
 .row{
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
+.covercard{
+  z-index: 0;
+}
 .covercard, .covercard:hover{
   border: solid 0.1px lightgrey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
-  background-size: 130px;
+  background-size: contain;
   height: 150px;
   width: 135px;
   display: inline-block;
 }
 
+span{
+  font-size: 25px;
+  padding-top: 115px;
+  padding-left: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.bicycle:{
+
+}
+
+.ship:{
+
+}
+
+.submarine:{
+
+}
+
+.tractor:{
+
+}
+
+.tram:{
+
+}
+
+.airbaloon:{
+
+}
+
 .covercard:hover{
   background-color: white;
+  z-index: -1;
 }
 
 .bicycle:hover{
   background-image: url(../img/noun_Bicycle_3134821.png);
   background-repeat: no-repeat;
+
 }
 
 .ship:hover{
