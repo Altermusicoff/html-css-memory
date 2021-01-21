@@ -31,9 +31,14 @@ main{
   position: relative;
 }
 
-.covercard{
+.covercard img{
+  width: 90%;
+  display: none;
+  position: absolute;
 }
-.covercard, .covercard:hover{
+
+
+.covercard{
   border: solid 0.1px lightgrey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
@@ -41,72 +46,29 @@ main{
   height: 150px;
   width: 135px;
   display: inline-block;
-}
-
-span{
-  font-size: 25px;
-  /* display: none; */
+  background-color: white;
   position: relative;
-  top: 110px;
-  left: 10px;
-}
-
-
-.bicycle:{
-
-}
-
-.ship:{
-
-}
-
-.submarine:{
-
-}
-
-.tractor:{
-
-}
-
-.tram:{
-
-}
-
-.airbaloon:{
-
 }
 
 .covercard:hover{
-  background-color: white;
+  background-image: none;
 }
 
-.bicycle:hover{
-  background-image: url(../img/noun_Bicycle_3134821.png);
-  background-repeat: no-repeat;
-
+span{
+  left: 0;
+  font-size: 25px;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: #e33488;
+  text-shadow:
+   -0.5px -0.5px 0 #afacac,
+    0.5px -0.5px 0 #545454,
+   -1px 1px 0 #696868,
+    1px 1px 0 #423f3f;
 }
 
-.ship:hover{
-  background-image: url(../img/noun_Cruise_Ship_3134824.png);
-  background-repeat: no-repeat;
-}
-
-.submarine:hover{
-  background-image: url(../img/noun_Submarine_3134738.png);
-  background-repeat: no-repeat;
-}
-
-.tractor:hover{
-  background-image: url(../img/noun_Tractor_3134797.png);
-  background-repeat: no-repeat;
-}
-
-.tram:hover{
-  background-image: url(../img/noun_Tram_3134750.png);
-  background-repeat: no-repeat;
-}
-
-.airbaloon:hover{
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-repeat: no-repeat;
+.covercard:hover img, .covercard:hover span {
+  display: block;
 }
