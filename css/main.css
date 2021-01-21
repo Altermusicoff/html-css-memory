@@ -9,7 +9,7 @@ h1{
   padding-top: 10px;
   font-size: 60px;
   text-align: center;
-  color: white;
+  margin: auto;
   background-color: lightblue;
   color: white;
   text-shadow:
@@ -22,44 +22,59 @@ h1{
 
 main{
   background-color: lightblue;
-  text-align: center;
   padding-bottom: 50px;
+  width: 100%;
+}
+
+.mazzo{
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin: auto;
 }
 
 .row{
-  padding-bottom: 20px;
-  position: relative;
+  width: 145px;
+  height: 165px;
+  margin: auto;
+  display: inline-block;
 }
 
-.covercard img{
-  width: 90%;
-  display: none;
-  position: absolute;
-}
-
-
-.covercard{
+.card{
   border: solid 0.1px lightgrey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
   background-size: contain;
   height: 150px;
   width: 135px;
-  display: inline-block;
   background-color: white;
   position: relative;
+  margin: auto;
 }
 
-.covercard:hover{
-  background-image: none;
+.nocover{
+  border: solid 0.1px lightgrey;
+  border-radius: 10px;
+  height: 150px;
+  width: 135px;
+  background-color: white;
+  position: relative;
+  margin: auto;
+}
+
+.nocover img, .card img{
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: block;
 }
 
 span{
-  left: 0;
-  font-size: 25px;
+  font-size: 20px;
   display: none;
   position: absolute;
-  bottom: 10px;
+  text-align: center;
+  bottom: 20px;
   width: 100%;
   color: #e33488;
   text-shadow:
@@ -69,6 +84,39 @@ span{
     1px 1px 0 #423f3f;
 }
 
-.covercard:hover img, .covercard:hover span {
+.nocoverspan{
   display: block;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  width: 100%;
+  color: #e33488;
+  text-shadow:
+   -0.5px -0.5px 0 #afacac,
+    0.5px -0.5px 0 #545454,
+   -1px 1px 0 #696868,
+    1px 1px 0 #423f3f;
+}
+
+.card img{
+  display: none;
+}
+
+.card:hover{
+  background-image: none;
+}
+
+.card:hover img, .card:hover span {
+  display: block;
+}
+
+.cambiacolore:hover{
+  color: orange;
+}
+
+footer{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
 }
