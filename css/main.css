@@ -23,14 +23,16 @@ h1{
 main{
   background-color: lightblue;
   padding-bottom: 50px;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.mazzo{
+.container{
     text-align: center;
-    width: 700px;
+    width: 100%;
     height: auto;
     margin: auto;
+    display: inline-block;
 }
 
 .row{
@@ -40,7 +42,7 @@ main{
   display: inline-block;
 }
 
-.card{
+.card, .nocover{
   border: solid 0.1px lightgrey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
@@ -50,9 +52,11 @@ main{
   background-color: white;
   position: relative;
   margin: auto;
+  display: inline-block;
 }
 
 .nocover{
+  display: none;
   border: solid 0.1px lightgrey;
   border-radius: 10px;
   height: 150px;
