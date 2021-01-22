@@ -5,12 +5,15 @@
   font-family: 'Nerko One', cursive;
 }
 
+body{
+  background-color: lightblue;
+  text-align: center;
+
+}
 h1{
   padding-top: 10px;
   font-size: 60px;
-  text-align: center;
   margin: auto;
-  background-color: lightblue;
   color: white;
   text-shadow:
    -1px -1px 0 #afacac,
@@ -21,29 +24,20 @@ h1{
 }
 
 main{
-  background-color: lightblue;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   width: 50%;
   margin: 0 auto;
 }
 
 .container{
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    display: inline-block;
-}
-
-.row{
-  width: 145px;
-  height: 165px;
-  margin: auto;
+  text-align: center;
+  width: 75%;
   display: inline-block;
 }
 
 .card, .nocover{
-  border: solid 0.1px lightgrey;
+
+  box-shadow: 2px 2px 1px grey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
   background-size: contain;
@@ -51,19 +45,19 @@ main{
   width: 135px;
   background-color: white;
   position: relative;
-  margin: auto;
+  margin: 0 13px 18px 0;
   display: inline-block;
+
 }
 
 .nocover{
-  display: none;
-  border: solid 0.1px lightgrey;
+  /* display: none; */
   border-radius: 10px;
   height: 150px;
   width: 135px;
+  background-image: none;
   background-color: white;
   position: relative;
-  margin: auto;
 }
 
 .nocover img, .card img{
@@ -121,6 +115,6 @@ span{
 
 footer{
   font-size: 20px;
-  text-align: center;
   position: relative;
+  padding-bottom: 30px;
 }
