@@ -8,8 +8,8 @@
 body{
   background-color: lightblue;
   text-align: center;
-
 }
+
 h1{
   padding-top: 10px;
   font-size: 60px;
@@ -36,7 +36,6 @@ main{
 }
 
 .card, .nocover{
-
   box-shadow: 2px 2px 1px grey;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
@@ -47,7 +46,6 @@ main{
   position: relative;
   margin: 0 13px 18px 0;
   display: inline-block;
-
 }
 
 .nocover{
@@ -84,17 +82,6 @@ span{
 
 .nocoverspan{
   display: block;
-  font-size: 20px;
-  position: absolute;
-  text-align: center;
-  bottom: 20px;
-  width: 100%;
-  color: #e33488;
-  text-shadow:
-   -0.5px -0.5px 0 #afacac,
-    0.5px -0.5px 0 #545454,
-   -1px 1px 0 #696868,
-    1px 1px 0 #423f3f;
 }
 
 .card img{
